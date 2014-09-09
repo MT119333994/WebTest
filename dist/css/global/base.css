@@ -40,13 +40,13 @@ a:focus {
     width: 280px;
 }
 
-.nav-test {
+.nav-head {
     position: relative;
     height: 40px;
     padding-left: 210px;
 }
 
-.nav-test ul {
+.nav-head ul {
     height: 40px;
     line-height: 40px;
     list-style: none;
@@ -54,7 +54,7 @@ a:focus {
     padding: 0;
 }
 
-.nav-test a {
+.nav-head a {
     font-size: 16px;
     color: #ffffff;
     text-decoration: none;
@@ -75,7 +75,7 @@ a:focus {
     height: 40px;
 }
 
-.nav-test h2 {
+.nav-head h2 {
     font-size: 16px;
     margin: 0;
     padding: 0;
