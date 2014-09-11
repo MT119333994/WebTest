@@ -12,4 +12,6 @@ $(function () {
             $('#' + category[2]).addClass('active');
         }
     });
+
+    $('#footer').load('/WebTest/dist/template/footer-template.html #footer');
 });

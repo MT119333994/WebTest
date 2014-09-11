@@ -133,6 +133,17 @@ a:focus {
     padding-bottom: 40px;
     margin-top: 40px;
     border-top: 1px solid #eee;
+    font-size: 12px;
+}
+
+.g-foot {
+    color: #b0b0b0;
+}
+
+.footer a {
+    margin: 0 2px;
+    color: #3e3e3e;
+    text-decoration: none;
 }
 
 .hide {
