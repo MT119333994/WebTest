@@ -66,7 +66,7 @@
 }
 
 /**
-* 促销左侧导航
+* 促销首页左侧导航
 */
 .nav-filter .nav-title {
     font-size: 14px;
@@ -89,3 +89,6 @@
      font-weight: bold;
  }
 
+/**
+* 促销详情页面
+*/
