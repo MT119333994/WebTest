@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    list-style: none;
+}
+.padding_right_0{
+    padding-right: 0;
+}
+.padding_left_0{
+    padding-left: 0;
+}
+.pins_items {
+    position: relative;
+    width: 230px;
+    border: 1px solid #e0e0e0;
+    float: left;
+    margin: 5px 0 5px 10px;
+    background-color: #FFF;
+    border-radius: 2px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+}
+.minH_340 {
+    min-height: 340px;
+}
+.pins_common {
+    position: relative;
+    width: 219px;
+    padding: 10px 10px 0px 10px;
+    font-size: 12px;
+}
+.pins_common_img {
+    width: 209px;
+    margin: 0px auto;
+}
+.textC {
+    text-align: center;
+}
+
+.pins_common_title {
+    position: relative;
+    width: 209px;
+    line-height: 20px;
+}
+.H_60 {
+    height: 60px;
+}
+.line18 {
+    line-height: 18px;
+}
+.pins_common_date {
+    position: relative;
+    width: 209px;
+    margin: 0px auto;
+    line-height: 40px;
+    border-top: 1px #BCBCBC dotted;
+}
+.pins_common_date span {
+    font-size: 12px;
+    font-weight: normal;
+    color: #888;
+}
+.clear {
+    clear: both;
+}
+
+/**
+* 促销左侧导航
+*/
+.nav-filter .nav-title {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 5px 0 0 0;
+    background-color: #3592e2;
+    color: #fff;
+    text-shadow: 0px -1px #999999;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.nav-filter li a {
+    padding: 5px 15px;
+    margin: 0;
+}
+
+.nav-filter .cur a ,.nav-filter .cur a:hover{
+     background: #439BE7;
+     color: #FFF;
+     font-weight: bold;
+ }
+
