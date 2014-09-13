@@ -83,6 +83,10 @@
     margin: 0;
 }
 
+.nav-filter li i {
+    margin-right: 5px;
+}
+
 .nav-filter .cur a ,.nav-filter .cur a:hover{
      background: #439BE7;
      color: #FFF;
