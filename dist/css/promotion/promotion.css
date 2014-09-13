@@ -10,6 +10,11 @@
 .padding_left_0{
     padding-left: 0;
 }
+
+.margin_top_bottom_5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
 .pins_items {
     position: relative;
     width: 230px;
@@ -63,6 +68,13 @@
 }
 .clear {
     clear: both;
+}
+/**
+* 促销首页推荐
+*/
+#carousel-recommend img{
+    width: 100%;
+    height: 248px;
 }
 
 /**
