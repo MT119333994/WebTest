@@ -3,7 +3,7 @@
  */
 
 $(function () {
-    $('#header').load('/WebTest/dist/template/header-template.html #header', function () {
+    $('#header').load('/WebTest/dist/template/header-template.html #header-template', function () {
         var category = window.location.pathname.split('/');
         if (category[2] == 'index.html') {
             $('#index').addClass('active');
@@ -13,5 +13,5 @@ $(function () {
         }
     });
 
-    $('#footer').load('/WebTest/dist/template/footer-template.html #footer');
+    $('#footer').load('/WebTest/dist/template/footer-template.html #footer-template');
 });

@@ -4,6 +4,11 @@ body {
     font-size: 12px;
 }
 
+.container {
+    width: 1000px;
+    padding: 0;
+}
+
 a:focus {
     outline: none;
 }
@@ -35,7 +40,7 @@ a:focus {
     background-color: #0c7edf;
 }
 
-.content ul > li {
+.index-content ul > li {
     display: table-cell;
     text-align: center;
     width: 280px;

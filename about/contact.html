@@ -1,60 +1,82 @@
 <!DOCTYPE html>
 <html>
-<head lang="en">
-    <meta charset="UTF-8">
-    <title></title>
-    <link rel="stylesheet" type="text/css" href="../dist/css/about/about.css"/>
-    <style type="text/css">
-        #wrapper {
-            margin: 0 auto;
-            width: 80%;
-            height: 100%
-        }
+<head>
+    <meta charset="gbk">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <!--<link rel="icon" href="docs/favicon.ico">-->
 
-        #menu {
-            float: left;
-            width: 30%;
-            height: 100%;
-        }
+    <title>Web Test</title>
 
-        #content {
-            float: left;
-            width: 70%;
-            height: 100%;
-        }
-    </style>
+    <link href="../dist/css/component/bootstrap.css" rel="stylesheet">
+    <link href="../dist/css/global/global.css" rel="stylesheet">
+    <link href="../dist/css/about/about.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="../dist/js/component/html5shiv.min.js"></script>
+    <script src="../dist/js/component/respond.min.js"></script>
+    <![endif]-->
 </head>
 <body>
-<div id="wrapper" style="float:inherit">
-    <!-- ä¸“é¢˜é¡µé¢åŒ…å±‘ -->
-    <div id="md_about_nav">
-        <div class="layout">
-            <a href="/">é¦–é¡µ</a><s class="nav_sep f_ib"></s><span>å…³äºŽé‡‘æ–§å­ - è”ç³»æˆ‘ä»¬</span></div>
-    </div>
+<div class="container">
+    <div id="header"></div>
 
-    <div id='menu' class="about_body layout">
-        <div class="about_l_menu">
-            <ul class="menu_list" id="yw0">
-                <li class="menu_item"><a href="about.html">å…¬å¸ä»‹ç»<s class="arrow"></s></a></li>
-                <li class="menu_item active"><a href="jobs.html">åŠ å…¥æˆ‘ä»¬ <s class="arrow"></s></a></li>
-                <li class="menu_item"><a href="partner.html">å•†åŠ¡åˆä½œ<s class="arrow"></s></a></li>
-                <li class="menu_item"><a href="contact.html">è”ç³»æˆ‘ä»¬<s class="arrow"></s></a></li>
-                <li class="menu_item"><a href="duty.html">å…è´£å£°æ˜Ž<s class="arrow"></s></a></li>
-
-            </ul>
+    <div class="content">
+        <div class="about-bn-nav">
+            <a href="../index.html">Ê×Ò³</a>
+            <span class="about-bn-separator"> >> </span>
+            <a href="./about.html">¹ØÓÚ</a>
+            <span class="about-bn-separator"> >> </span>
+            <span>ÁªÏµÎÒÃÇ</span>
         </div>
-    </div>
-    <div class="about_r_wrap">
-        <div class="about_r_head"></div>
-        <div class="about_r_body">
-            <div class="about_r_tit">è”ç³»æ–¹å¼</div>
+        <div class="about-body">
+            <div class="about-l-nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="about.html">¹«Ë¾½éÉÜ<span
+                            class="glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li class="nav-item"><a href="jobs.html">¼ÓÈëÎÒÃÇ<span
+                            class="glyphicon glyphicon-chevron-right"></span></s></a></li>
+                    <li class="nav-item"><a href="partner.html">ÉÌÎñºÏ×÷<span
+                            class="glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li class="nav-item active"><a href="contact.html">ÁªÏµÎÒÃÇ<span
+                            class="glyphicon glyphicon-chevron-right"></span></a></li>
+                    <li class="nav-item"><a href="duty.html">ÃâÔðÉùÃ÷<span class="glyphicon glyphicon-chevron-right"></span></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="about-r-content">
+                <div class="about-r-head"></div>
+                <div class="aoubt-r-body">
+                    <div class="about-r-title">¹«Ë¾¼ò½é</div>
+                    <div class="abour-r-description">
+                        <p>½ð¸«×Ó£¨www.jinfuzi.com£©Á¥ÊôÓÚÉîÛÚÊÐ½ð¸«×ÓÍøÂç¿Æ¼¼ÓÐÏÞ¹«Ë¾¡£2012Äê7ÔÂ´´Á¢ÓÚÉîÛÚ£¬ÊÇ»¥ÁªÍøÍ¶×ÊÀí²ÆµÚÒ»Æ½Ì¨¡£</p>
+                        <br>
 
-            <div id='content'>
-                <s class="quo quo_l"></s><s class="quo quo_r"></s>
+                        <p>
+                            ½ð¸«×Ó±ü³Ð×Å"ÈËÈËÐÅÀµµÄÍ¶×ÊÀí²Æ·þÎñÆ½Ì¨"µÄÔ¸¾°£¬Ö¼ÔÚÍ¨¹ý»¥ÁªÍø£¨ÒÆ¶¯£©¼¼Êõ£¬ËæÊ±ËæµØÎªÍ¶×ÊÕßÌá¹©×¨Òµ¡¢ÊµÊ±¡¢È¨ÍþµÄÀí²Æ²úÆ·ºÍ½ðÈÚ·þÎñµÄËÑË÷¡¢¶Ô±È¡¢²éÕÒ¡¢×ÉÑ¯£¬ÒÔ°ïÖúÍ¶×ÊÕßÕÒµ½×îºÏÊÊµÄÀí²Æ²úÆ·ºÍ×îÓÅÖÊµÄÀí²Æ·þÎñ¡£</p>
+                        <br>
 
-                <p>é‡‘æ–§å­ï¼ˆwww.jinfuzi.comï¼‰éš¶å±žäºŽæ·±åœ³å¸‚é‡‘æ–§å­ç½‘ç»œç§‘æŠ€æœ‰é™å…¬å¸ã€‚2012å¹´7æœˆåˆ›ç«‹äºŽæ·±åœ³ï¼Œæ˜¯äº’è”ç½‘æŠ•èµ„ç†è´¢ç¬¬ä¸€å¹³å°ã€‚</p>
+                        <p>
+                            Ä¿Ç°£¬½ð¸«×ÓÃ¿ÌìÏìÓ¦À´×ÔÈ«¹ú¸÷µØ10Íò´ÎµÄÔÚÏßÍ¶×ÊÀí²ÆËÑË÷ÇëÇó¡£ÍøÓÑ¿ÉÒÔÍ¨¹ý½ð¸«×ÓÔÚ×î¶ÌÊ±¼äÄÚÕÒµ½ºÏÊÊµÄÍ¶×ÊÀí²Æ·þÎñÐÅÏ¢£¬°üº¬µ«²»ÏÞÓÚÐÅÍÐ²úÆ·¡¢È¯ÉÌ×Ê¹Ü¡¢ÓÐÏÞºÏ»ï¡¢Ë½Ä¼»ù½ð¡¢¹«Ä¼»ù½ð¡¢ÒøÐÐÀí²Æ¡¢P2PÀí²Æ¡¢»¥ÁªÍøÀí²ÆµÈÎ¯ÍÐÀàÍ¶×Ê²úÆ·µÄËÑË÷£¬ÒÔ¼°¹ÉÆ±¡¢ÆÚ»õ¡¢»Æ½ð¡¢°×Òø¡¢ÍâÅÌ¡¢Íâ»ã¡¢¸Û¹É¡¢ÃÀ¹ÉµÈÖ÷¶¯Í¶×ÊµÄ¿ª»§·þÎñÇëÇó¡£</p>
+                        <br>
 
+                        <p>³ýÁËÃ¿ÌìÎª10ÍòµÄÍøÓÑÌá¹©ÔÚÏßÍ¶×ÊÀí²ÆËÑË÷·þÎñ£¬½ð¸«×Ó¸üÎª¸÷Àà½ðÈÚ»ú¹¹ºÍÀí²Æ¹ËÎÊÌá¹©ÁËÒ»¸ö¸ßÐÔ¼Û±È¡¢¸ßÐ§µÄÕûºÏÓªÏúÍÆ¹ãÆ½Ì¨¡£</p>
+                        <br>
+
+                        <p>Í¨¹ýÈ«Ìå½ð¸«×ÓÈË¼á³Ö²»Ð¸µÄÅ¬Á¦£¬ÒÔÑÏ¸ñµÄ·çÏÕ¹ÜÀíÁ÷³Ì¡¢´´ÐÂµÄ»¥ÁªÍø¼¼Êõ¡¢ÍêÉÆµÄÐÅÓÃ¹ÜÀí»úÖÆÓëÈ«Ãæ×ÝÉîµÄÓÅÖÊ·þÎñ£¬ÈÃÈËÃÇµÄÍ¶×ÊÀí²Æ±äµÃ¸ü°²È«¡¢¸ßÐ§¡¢¼òµ¥¡¢Ï¸ÖÂ¡£</p>
+                    </div>
+                </div>
+                <div class="about-r-foot"></div>
             </div>
         </div>
+    </div>
+
+    <div id="footer"></div>
+</div>
+<script src="../dist/js/component/jquery-1.11.1.js"></script>
+<script src="../dist/js/global/global.js"></script>
+<script src="../dist/js/component/bootstrap.min.js"></script>
 </body>
 </html>
