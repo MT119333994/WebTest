@@ -4,20 +4,15 @@
     border: 0;
     list-style: none;
 }
-.padding_right_0{
-    padding-right: 0;
+.margin-top-bottom-5{
+    margin: 5px 0;
 }
-.padding_left_0{
-    padding-left: 0;
+.margin-left-right-5{
+    margin: 0 5px;
 }
-
-.margin_top_bottom_5{
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-.pins_items {
+.pins-items {
     position: relative;
-    width: 230px;
+    width: 252px;
     border: 1px solid #e0e0e0;
     float: left;
     margin: 5px 0 5px 10px;
@@ -26,42 +21,42 @@
     -webkit-border-radius: 2px;
     -moz-border-radius: 2px;
 }
-.minH_340 {
+.minH-340 {
     min-height: 340px;
 }
-.pins_common {
+.pins-common {
     position: relative;
-    width: 219px;
+    width: 242px;
     padding: 10px 10px 0px 10px;
     font-size: 12px;
 }
-.pins_common_img {
-    width: 209px;
+.pins-common-img {
+    width: 229px;
     margin: 0px auto;
 }
 .textC {
     text-align: center;
 }
 
-.pins_common_title {
+.pins-common-title {
     position: relative;
-    width: 209px;
+    width: 229px;
     line-height: 20px;
 }
-.H_60 {
+.H-60 {
     height: 60px;
 }
 .line18 {
     line-height: 18px;
 }
-.pins_common_date {
+.pins-common-date {
     position: relative;
-    width: 209px;
+    width: 229px;
     margin: 0px auto;
     line-height: 40px;
     border-top: 1px #BCBCBC dotted;
 }
-.pins_common_date span {
+.pins-common-date span {
     font-size: 12px;
     font-weight: normal;
     color: #888;
@@ -80,20 +75,30 @@
 /**
 * 促销首页左侧导航
 */
-.nav-div > ul + ul .nav-title{
-    margin-top: 15px;
+.nav-div{
+    top: 0;
+    left: 0;
+    width: 210px;
+    float: left;
 }
-
+.items-list{
+    padding-left: 210px;
+}
 .nav-title {
     font-size: 14px;
     font-weight: bold;
-    margin: 5px 0 0 0;
-    background-color: #3592e2;
+    background-color: rgb(182,182,182);
     color: #fff;
     text-shadow: 0px -1px #999999;
     padding: 5px 10px;
+    margin: 0;
     cursor: pointer;
 }
+.nav-filter{
+    margin:5px 0 0 0;
+    border: 1px rgb(224, 224, 224) solid;
+}
+
 .nav-filter h4 i {
     margin-right: 5px;
 }
@@ -117,3 +122,32 @@
 /**
 * 促销详情页面
 */
+.common-detail-img {
+    width: 570px;
+    height: 410px;
+    border: 1px #e1e1e1 solid;
+    padding: 10px;
+    position: relative;
+    vertical-align: middle;
+    overflow: hidden;
+    text-align: center;
+}
+
+.common-detail-img img {
+    border:solid 1px #ccc;
+    background-position:50% 50%;
+    background-position :50% 50%;
+    background-size:contain;
+    background-repeat:no-repeat;/*图像不重复显示*/
+}
+
+.suofang {
+    margin: auto;
+    width: 570px;
+    height: 410px;
+}
+.suofang img{
+    max-width: 100%!important;
+    height: auto!important;
+    width:expression(this.width > 570 ? "570px":this.width)!important;
+}
