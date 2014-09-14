@@ -3,15 +3,21 @@
  */
 
 $(function () {
-    $('#header').load('/WebTest/dist/template/header-template.html #header-template', function () {
+    $.ajax({
+        url: "/WebTest/dist/template/global-template.html",
+        dataType: "html"
+    }).done(function (responseText) {
+        var $response = $("<div>").append($.parseHTML(responseText));
+        $('#header').html($response.find('#header-template').html());
+
         var category = window.location.pathname.split('/');
-        if (category[2] == 'index.html') {
+        if (category[category.length - 1] == 'index.html') {
             $('#index').addClass('active');
             $('#category-panel').removeClass('hide');
         } else {
-            $('#' + category[2]).addClass('active');
+            $('#' + category[category.length - 2]).addClass('active');
         }
-    });
 
-    $('#footer').load('/WebTest/dist/template/footer-template.html #footer-template');
+        $('#footer').html($response.find('#footer-template').html());
+    });
 });
