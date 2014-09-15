@@ -1,0 +1,67 @@
+.strategy-item {
+    border-bottom: 1px dashed #cecece;
+    margin: 0 5px;
+}
+.strategy-item .right{
+    float: right;
+    width: 130px;
+}
+.strategy-item .count {
+    padding-top: 5px;
+    text-align: center;
+}
+.strategy-item .count span {
+    display: inline-block;
+    margin: 0 5px;
+}
+.strategy-item .count a {
+    color: #fa0;
+    text-decoration: none;
+    cursor: pointer;
+}
+.strategy-item .like {
+    width: 50px;
+    margin: 16px  0 0 40px;
+    text-align: center;
+    color: #fa0;
+    font-size: 14px;
+}
+.strategy-item .like img {
+    display: block;
+    margin: 0 auto 5px;
+    width: 42px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 200px;
+    cursor: pointer;
+}
+
+
+.strategy-item h2 {
+    line-height: 25px;
+    margin: 5px 0 10px 0px;
+    overflow: hidden;
+    font-weight: normal;
+    font-size: 20px;
+}
+.strategy-item h2 a{
+    color: #fa0;
+}
+.strategy-item .author {
+    height: 22px;
+    position: relative;
+    width: 480px;
+    float: none;
+}
+.strategy-item .post_info {
+    padding-top: 5px;
+}
+.strategy-item .post_info p{
+    float: none;
+    width: auto;
+    font-size: 12px;
+    line-height: 22px;
+}
+.recommend{
+
+}
