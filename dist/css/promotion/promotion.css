@@ -4,11 +4,20 @@
     border: 0;
     list-style: none;
 }
+.margin-top-10{
+    margin-top: 10px;
+}
 .margin-top-bottom-5{
     margin: 5px 0;
 }
+.margin-top-bottom-10{
+    margin: 10px 0;
+}
 .margin-left-right-5{
     margin: 0 5px;
+}
+.left-line{
+    border-left: 1px #BCBCBC solid;
 }
 .pins-items {
     position: relative;
@@ -122,32 +131,53 @@
 /**
 * 促销详情页面
 */
+.common-detail-title{
+    margin-top: 15px;
+    margin-bottom: 0;
+    font-size: 24px;
+    font-weight: normal;
+}
+.common-detail-second-title{
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    font-weight: bold;
+}
+.common-detail-summary p{
+    text-indent:2em;
+    color: #999;
+}
 .common-detail-img {
     width: 570px;
     height: 410px;
-    border: 1px #e1e1e1 solid;
     padding: 10px;
     position: relative;
     vertical-align: middle;
     overflow: hidden;
     text-align: center;
+    margin-left:auto;
+    margin-right:auto;
 }
-
 .common-detail-img img {
-    border:solid 1px #ccc;
-    background-position:50% 50%;
-    background-position :50% 50%;
-    background-size:contain;
-    background-repeat:no-repeat;/*图像不重复显示*/
+    position: relative;
+    vertical-align: middle;
+    margin-top: 0px;
 }
 
-.suofang {
-    margin: auto;
-    width: 570px;
-    height: 410px;
+.common-detail-address h4{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: bold;
 }
-.suofang img{
-    max-width: 100%!important;
-    height: auto!important;
-    width:expression(this.width > 570 ? "570px":this.width)!important;
+.common-detail-address h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 14px;
+    font-weight: normal;
+}
+.common-detail-address p{
+    text-indent:2em;
+    font-size: 12px;
+    color: #999;
 }

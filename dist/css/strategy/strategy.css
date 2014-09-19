@@ -63,5 +63,16 @@
     line-height: 22px;
 }
 .recommend{
-
+    margin: 15px 5px 5px 20px;
+}
+.recommend .title {
+    height: 35px;
+    line-height: 35px;
+    clear: both;
+    overflow: hidden;
+    border-bottom: 1px solid #dadada;
+    margin-bottom: 8px;
+}
+.recommend .title span {
+    font-size: 16px;
 }
