@@ -49,7 +49,7 @@ a:focus {
 .nav-head {
     position: relative;
     height: 40px;
-    padding-left: 210px;
+    padding-left: 190px;
 }
 
 .nav-head ul {
@@ -70,7 +70,7 @@ a:focus {
     position: absolute;
     top: 0;
     left: 0;
-    width: 210px;
+    width: 190px;
     height: 40px;
 }
 
@@ -103,7 +103,7 @@ a:focus {
     position: absolute;
     left: 0;
     top: 40px;
-    width: 210px;
+    width: 190px;
     height: 320px;
     border-color: #666;
     background-color: #fff;
@@ -121,7 +121,7 @@ a:focus {
     float: left;
     height: 320px;
     overflow: hidden;
-    padding-left: 210px;
+    padding-left: 190px;
 }
 
 .category-item-group {
@@ -130,7 +130,7 @@ a:focus {
     border-bottom: none;
     margin: 0;
     padding: 0;
-    width: 210px;
+    width: 190px;
     height: 320px;
 }
 
