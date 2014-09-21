@@ -1,7 +1,25 @@
 @charset "utf-8";
-body {
+
+body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, fieldset, legend, button, input, textarea, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+body, button, input, select, textarea {
     font-family: "Microsoft Yahei", "\5FAE\8F6F\96C5\9ED1", Tahoma, Helvetica, STHeiti, "Hiragino Sans GB", sans-serif;
     font-size: 12px;
+}
+
+.clear {
+    clear: both;
+    display: block;
+    height: 0;
+    overflow: hidden;
+    font-size: 0;
+}
+
+a:focus {
+    outline: none;
 }
 
 .container {
@@ -9,8 +27,14 @@ body {
     padding: 0;
 }
 
-a:focus {
-    outline: none;
+.header-logo {
+    height: 50px;
+    line-height: 50px;
+}
+
+.header-logo h3 {
+    line-height: 50px;
+    vertical-align: middle;
 }
 
 .nav-justify {
@@ -49,7 +73,7 @@ a:focus {
 .nav-head {
     position: relative;
     height: 40px;
-    padding-left: 210px;
+    padding-left: 190px;
 }
 
 .nav-head ul {
@@ -70,7 +94,7 @@ a:focus {
     position: absolute;
     top: 0;
     left: 0;
-    width: 210px;
+    width: 190px;
     height: 40px;
 }
 
@@ -103,7 +127,7 @@ a:focus {
     position: absolute;
     left: 0;
     top: 40px;
-    width: 210px;
+    width: 190px;
     height: 320px;
     border-color: #666;
     background-color: #fff;
@@ -121,7 +145,7 @@ a:focus {
     float: left;
     height: 320px;
     overflow: hidden;
-    padding-left: 210px;
+    padding-left: 190px;
 }
 
 .category-item-group {
@@ -130,7 +154,7 @@ a:focus {
     border-bottom: none;
     margin: 0;
     padding: 0;
-    width: 210px;
+    width: 190px;
     height: 320px;
 }
 
