@@ -1,3 +1,6 @@
+.margin-top-10{
+    margin-top: 10px;
+}
 .strategy-item {
     border-bottom: 1px dashed #cecece;
     margin: 0 5px;
@@ -63,7 +66,7 @@
     line-height: 22px;
 }
 .recommend{
-    margin: 15px 5px 5px 20px;
+    margin: 5px 5px 5px 0;
 }
 .recommend .title {
     height: 35px;

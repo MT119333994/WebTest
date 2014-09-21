@@ -16,9 +16,6 @@
 .margin-left-right-5{
     margin: 0 5px;
 }
-.left-line{
-    border-left: 1px #BCBCBC solid;
-}
 .pins-items {
     position: relative;
     width: 252px;
