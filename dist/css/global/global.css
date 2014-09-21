@@ -10,6 +10,12 @@ body, button, input, select, textarea {
     font-size: 12px;
 }
 
+a {
+    color: #333;
+    text-decoration: none;
+    outline: 0;
+}
+
 .clear {
     clear: both;
     display: block;
@@ -27,14 +33,88 @@ a:focus {
     padding: 0;
 }
 
-.header-logo {
-    height: 50px;
-    line-height: 50px;
+/** New header CSS */
+.header {
+    border-bottom: 1px solid #d4d4d4\9;
+    box-shadow: 0 1px 5px #d4d4d4;
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 90px;
+    line-height: 90px;
 }
 
-.header-logo h3 {
+.header-main {
+    width: 1190px;
+    margin: auto;
+    position: relative;
+}
+
+.header-logo {
+    line-height: 90px;
+    vertical-align: middle;
+    float: left;
+}
+
+.header-logo > a {
+    width: 165px;
+    height: 90px;
+    display: block;
+    background: url(/WebTest/dist/images/global/logo_new_v1.jpg) no-repeat top left;
+}
+
+.header-logo .change-skin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.header-logo .change-skin a:hover {
+    text-decoration: none;
+    color: #f60;
+}
+
+.header-nav {
+    float: left;
+}
+
+.header-nav li {
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 50px;
+}
+
+.header-nav li a:hover {
+    text-decoration: none;
+    color: #eb0028;
+}
+
+/** New header CSS ends*/
+
+/** Origin header CSS */
+.o-header-logo {
+    height: 50px;
+    line-height: 50px;
+    position: relative;
+}
+
+.o-header-logo h3 {
     line-height: 50px;
     vertical-align: middle;
+}
+
+.o-header-logo .change-skin {
+    position: absolute;
+    top: 0;
+    right: 0;
+    line-height: 20px;
+}
+
+.o-header-logo .change-skin a:hover {
+    text-decoration: none;
+    color: #f60;
 }
 
 .nav-justify {
@@ -134,6 +214,18 @@ a:focus {
     box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
 }
 
+.category-item-group {
+    border: 1px solid #e3e3e3;
+    border-top: 0;
+    border-bottom: none;
+    margin: 0;
+    padding: 0;
+    width: 190px;
+    height: 320px;
+}
+
+/** Origin header CSS ends*/
+
 .product-category {
     margin: 0 auto;
     padding: 0;
@@ -146,16 +238,6 @@ a:focus {
     height: 320px;
     overflow: hidden;
     padding-left: 190px;
-}
-
-.category-item-group {
-    border: 1px solid #e3e3e3;
-    border-top: 0;
-    border-bottom: none;
-    margin: 0;
-    padding: 0;
-    width: 190px;
-    height: 320px;
 }
 
 .footer {
