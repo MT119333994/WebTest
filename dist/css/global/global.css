@@ -51,16 +51,14 @@ a:focus {
 }
 
 .header-logo {
-    line-height: 90px;
-    vertical-align: middle;
     float: left;
 }
 
 .header-logo > a {
-    width: 165px;
+    width: 185px;
     height: 90px;
     display: block;
-    background: url(/WebTest/dist/images/global/logo_new_v1.jpg) no-repeat top left;
+    background: url(/WebTest/dist/images/global/logo_v1.png) no-repeat center left;
 }
 
 .header-logo .change-skin {
@@ -88,33 +86,40 @@ a:focus {
 
 .header-nav li a:hover {
     text-decoration: none;
-    color: #eb0028;
+    color: #ee0853;
 }
 
 /** New header CSS ends*/
 
 /** Origin header CSS */
-.o-header-logo {
-    height: 50px;
-    line-height: 50px;
+.o-header {
+    height: 90px;
+    line-height: 90px;
     position: relative;
 }
 
-.o-header-logo h3 {
-    line-height: 50px;
+.o-header h3 {
+    line-height: 90px;
     vertical-align: middle;
 }
 
-.o-header-logo .change-skin {
+.o-header .change-skin {
     position: absolute;
     top: 0;
     right: 0;
     line-height: 20px;
 }
 
-.o-header-logo .change-skin a:hover {
+.o-header .change-skin a:hover {
     text-decoration: none;
     color: #f60;
+}
+
+.o-header-logo > a {
+    width: 185px;
+    height: 90px;
+    display: block;
+    background: url(/WebTest/dist/images/global/logo_v1.png) no-repeat center left;
 }
 
 .nav-justify {
