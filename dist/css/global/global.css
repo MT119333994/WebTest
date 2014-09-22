@@ -55,7 +55,7 @@ a:focus {
 }
 
 .header-logo > a {
-    width: 185px;
+    width: 150px;
     height: 90px;
     display: block;
     background: url(/WebTest/dist/images/global/logo_v1.png) no-repeat center left;
