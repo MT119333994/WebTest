@@ -39,7 +39,6 @@
     cursor: pointer;
 }
 
-
 .strategy-item h2 {
     line-height: 25px;
     margin: 5px 0 10px 0px;
@@ -48,7 +47,6 @@
     font-size: 20px;
 }
 .strategy-item h2 a{
-    color: #fa0;
 }
 .strategy-item .author {
     height: 22px;
@@ -78,4 +76,56 @@
 }
 .recommend .title span {
     font-size: 16px;
+}
+
+/*
+* 详情页面
+*/
+.main_tit{
+    text-align: center;
+}
+
+.main_tit .info{
+    border-bottom: 1px solid #ccc;
+    line-height: 35px;
+    height: 35px;
+}
+.content h1{
+    font-size: 18px;
+    font-weight: 500;
+    height: 22px;
+    line-height: 22px;
+    margin: 35px 0 15px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.content h2{
+    font-size: 16px;
+    font-weight: 500;
+    height: 20px;
+    line-height: 20px;
+    margin: 20px 0 10px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.content h3{
+    font-size: 14px;
+    font-weight: 500;
+    height: 18px;
+    line-height: 18px;
+    margin: 15px 0 5px 0px;
+    overflow: hidden;
+    position: relative;
+}
+.content p{
+    color: #333;
+    margin: 8px 0 0 0;
+    text-indent: 2em;
+    line-height: 24px;
+}
+.content table, th ,tr, td {
+    border: 1px solid #ccc;
+}
+.content th,td{
+    padding: 5px;
 }
