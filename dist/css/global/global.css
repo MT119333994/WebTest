@@ -40,8 +40,8 @@ a:focus {
     position: relative;
     top: 0;
     left: 0;
-    height: 90px;
-    line-height: 90px;
+    height: 70px;
+    line-height: 70px;
 }
 
 .header-main {
@@ -55,8 +55,8 @@ a:focus {
 }
 
 .header-logo > a {
-    width: 150px;
-    height: 90px;
+    width: 130px;
+    height: 70px;
     display: block;
     background: url(/WebTest/dist/images/global/logo_v1.png) no-repeat center left;
 }
@@ -93,13 +93,13 @@ a:focus {
 
 /** Origin header CSS */
 .o-header {
-    height: 90px;
-    line-height: 90px;
+    height: 70px;
+    line-height: 70px;
     position: relative;
 }
 
 .o-header h3 {
-    line-height: 90px;
+    line-height: 70px;
     vertical-align: middle;
 }
 
@@ -117,7 +117,7 @@ a:focus {
 
 .o-header-logo > a {
     width: 185px;
-    height: 90px;
+    height: 70px;
     display: block;
     background: url(/WebTest/dist/images/global/logo_v1.png) no-repeat center left;
 }
