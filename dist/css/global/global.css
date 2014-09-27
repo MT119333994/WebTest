@@ -358,5 +358,35 @@ a:focus {
 }
 .inner_iconDiv span {
     padding-right: 5px;
+}
 
+/*
+* 商场活动过滤
+*/
+.nav-div .nav-pills{
+    border-bottom: 1px solid #eee;
+}
+.nav-div li{
+    font-size: 14px;
+}
+.nav-div .nav-title{
+    position: relative;
+    display: block;
+    padding: 11px 15px 10px 1px;
+    font-weight: bold;
+}
+.nav-title i{
+    padding-right: 5px;
+}
+.nav-div .cur a ,.nav-div .cur a:hover{
+    background: #439BE7;
+    color: #FFF;
+    font-weight: bold;
+}
+#carousel-recommend {
+    margin-top: 5px;
+}
+#carousel-recommend img{
+    width: auto;
+    height: 248px!important;
 }
