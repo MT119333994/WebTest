@@ -28,6 +28,25 @@ a:focus {
     outline: none;
 }
 
+/** Common styles */
+.pull-right {
+    float: right !important;
+}
+
+.pull-left {
+    float: left !important;
+}
+
+.rmb-symbol {
+    font-family: Arial;
+}
+
+.hide {
+    display: none;
+}
+
+/** Common styles ends */
+
 .container {
     width: 1190px;
     padding: 0;
@@ -261,132 +280,4 @@ a:focus {
     margin: 0 2px;
     color: #3e3e3e;
     text-decoration: none;
-}
-
-.hide {
-    display: none;
-}
-
-
-/*
-* 首页活动
-*/
-.inner_wrapper {
-    margin: 1em 0;
-}
-.inner_wrapper h2 {
-    font-size: 22px;
-    padding-bottom: 0.5em;
-    margin-bottom: 0px;
-}
-.inner_wrapper h2 a{
-    color:#2c3e50;
-}
-.inner_wrapper h3 {
-    font-size: 16px;
-    color: rgb(176, 176, 176);
-    padding-top: 0px;
-    padding-bottom: 0.6em;
-    margin: 0px auto;
-    overflow: hidden;
-}
-.inner_wrapper h3 a {
-    float: right;
-    font-size: 16px;
-    color: rgb(66, 139, 202);
-}
-.div-line{
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
-    border-bottom: 1px solid #eee;
-    margin-top: 10px
-}
-.promotion{
-    padding: 8px 14px;
-    font-size: 16px;
-    position: relative;
-    background-color: rgb(255, 255, 255);
-    border-top: 2px solid rgb(66, 139, 202);
-}
-.innerDiv {
-    position: relative;
-}
-.innerDiv img{
-    display: block;
-    max-height: 230px;
-    width: auto;
-    margin: auto;
-}
-.innerDiv p{
-    border-bottom: 1px solid #eee;
-    height: 72px;
-    overflow: hidden;
-    position: relative;
-    padding-bottom: 6px;
-}
-.innerDiv .picLink {
-    display: block;
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    z-index: 1000;
-    transition: all 200ms ease-in;
-    -webkit-transition: all 200ms ease-in;
-}
-.innerDiv .brand {
-    font-size: 18px;
-    font-weight: 600;
-    position: absolute;
-    right: 0px;
-    margin-top: 0px;
-    bottom: 0px;
-    padding-left: 1em;
-    background-color: rgb(255, 255, 255);
-}
-.brand {
-    display: inline-block;
-    color: rgb(242, 108, 79);
-}
-.inner_iconDiv {
-    color: rgb(44, 62, 80);
-    display: block;
-    margin-top: 8px;
-    font-size: 14px;
-    color: rgb(176, 176, 176);
-}
-.inner_iconDiv span {
-    padding-right: 5px;
-}
-
-/*
-* 商场活动过滤
-*/
-.nav-div .nav-pills{
-    border-bottom: 1px solid #eee;
-}
-.nav-div li{
-    font-size: 14px;
-}
-.nav-div .nav-title{
-    position: relative;
-    display: block;
-    padding: 11px 15px 10px 1px;
-    font-weight: bold;
-}
-.nav-title i{
-    padding-right: 5px;
-}
-.nav-div .cur a ,.nav-div .cur a:hover{
-    background: #439BE7;
-    color: #FFF;
-    font-weight: bold;
-}
-#carousel-recommend {
-    margin-top: 5px;
-}
-#carousel-recommend img{
-    width: auto;
-    height: 248px!important;
 }
