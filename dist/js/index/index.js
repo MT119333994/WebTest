@@ -3,9 +3,9 @@
  */
 
 $(function () {
-    $(".floor-title .floor-title-tab").on("mouseover", "a", function () {
-        $(this).parent().addClass("active").siblings(".active").removeClass("active");
-    });
+//    $(".floor-title .floor-title-tab").on("mouseover", "a", function () {
+//        $(this).parent().addClass("active").siblings(".active").removeClass("active");
+//    });
 
     $("#fc-category-tab").on("mouseenter", "li", function () {
         $(this).addClass("selected").siblings(".selected").removeClass("selected");
@@ -30,6 +30,6 @@ $(function () {
             default :
                 animateDisplace = "0";
         }
-        $(".fc-category-wrapper").css("top", animateDisplace);
+        $(".fc-category-wrapper").animate({"top": animateDisplace}, {"speed": "500", "queue": false});
     });
 });

@@ -15,6 +15,7 @@ li, ol, ul {
 }
 
 .inner_wrapper h2 {
+    display: inline-block;
     font-size: 22px;
     padding-bottom: 0.5em;
     margin-bottom: 0px;
@@ -25,6 +26,7 @@ li, ol, ul {
 }
 
 .inner_wrapper h3 {
+    display: inline-block;
     font-size: 16px;
     color: rgb(176, 176, 176);
     padding-top: 0px;
@@ -48,7 +50,7 @@ li, ol, ul {
 
 .promotion {
     padding: 8px 14px;
-    font-size: 16px;
+    font-size: 14px;
     position: relative;
     background-color: rgb(255, 255, 255);
     border-top: 2px solid rgb(66, 139, 202);
@@ -56,6 +58,15 @@ li, ol, ul {
 
 .innerDiv {
     position: relative;
+}
+
+.innerDiv .promotion-title {
+    text-align: center;
+    margin: 10px 0 0;
+}
+
+.innerDiv .promotion-title span {
+    color: #ff0000;
 }
 
 .innerDiv img {
@@ -67,7 +78,7 @@ li, ol, ul {
 
 .innerDiv p {
     border-bottom: 1px solid #eee;
-    height: 72px;
+    height: 35px;
     overflow: hidden;
     position: relative;
     padding-bottom: 6px;
@@ -102,10 +113,10 @@ li, ol, ul {
 }
 
 .inner_iconDiv {
-    color: rgb(44, 62, 80);
+    text-align: center;
     display: block;
     margin-top: 8px;
-    font-size: 14px;
+    font-size: 12px;
     color: rgb(176, 176, 176);
 }
 
@@ -116,6 +127,10 @@ li, ol, ul {
 /** ------------index promotion ends------------ */
 
 /** ------------Floor common area starts------------ */
+.content {
+    margin-top: 30px;
+}
+
 .floor-all {
     clear: both;
     margin-bottom: 20px;
