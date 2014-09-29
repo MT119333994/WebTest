@@ -102,10 +102,11 @@
     padding-bottom: 5px;
     border-bottom: 1px solid #e5e5e5;
     font: bold 20px/32px 'Hiragino Sans GB', 'Microsoft Yahei', '黑体';
-    color: #f60;
+    color: #ee0853;
 }
 
 .about-r-description {
-    padding: 20px 40px;
+    padding: 20px 0;
     position: relative;
+    font-size: 14px;
 }
