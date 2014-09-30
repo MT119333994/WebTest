@@ -75,7 +75,6 @@
 
 .about-r-content {
     margin-left: 176px;
-    display: inline-block;
 }
 
 .about-r-head, .about-r-foot {
@@ -92,7 +91,7 @@
     background-position: 0 -27px;
 }
 
-.aoubt-r-body {
+.about-r-body {
     padding: 0 70px 50px;
     background: url(../../images/about/about_conbody_bg.png) repeat-y left top;
     line-height: 2em;
