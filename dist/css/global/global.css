@@ -16,6 +16,10 @@ a {
     outline: 0;
 }
 
+li, ol, ul {
+    list-style: none;
+}
+
 .clear {
     clear: both;
     display: block;
@@ -43,6 +47,10 @@ a:focus {
 
 .hide {
     display: none;
+}
+
+.logo-color {
+    color: #ee0853;
 }
 
 /** Common styles ends */
