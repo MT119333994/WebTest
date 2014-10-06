@@ -3,10 +3,6 @@
  */
 
 $(function () {
-//    $(".floor-title .floor-title-tab").on("mouseover", "a", function () {
-//        $(this).parent().addClass("active").siblings(".active").removeClass("active");
-//    });
-
     $("#fc-category-tab").on("mouseenter", "li", function () {
         $(this).addClass("selected").siblings(".selected").removeClass("selected");
         var animateDisplace;
@@ -31,5 +27,11 @@ $(function () {
                 animateDisplace = "0";
         }
         $(".fc-category-wrapper").animate({"top": animateDisplace}, {"speed": "500", "queue": false});
+    });
+
+    $('.hk-category-list').on("mouseover", "li", function () {
+        $(this).addClass("hk-category-selected");
+    }).on("mouseout", "li", function () {
+        $(this).removeClass("hk-category-selected");
     });
 });

@@ -281,6 +281,10 @@ li, ol, ul {
     border: 1px solid #E5E5E5;
 }
 
+.hk-category-list .hk-category-selected {
+    border: 1px solid #ee0853;
+}
+
 .hk-category-list li:last-child {
     margin-right: 0;
 }
