@@ -136,3 +136,7 @@ a:focus {
     color: #3e3e3e;
     text-decoration: none;
 }
+
+.g-foot-nav {
+    text-align: center;
+}
