@@ -285,7 +285,7 @@ li, ol, ul {
     border: 1px solid #ee0853;
 }
 
-.hk-category-list li:last-child {
+.hk-category-list .hk-category-last {
     margin-right: 0;
 }
 

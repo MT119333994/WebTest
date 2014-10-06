@@ -56,7 +56,7 @@ a:focus {
 /** Common styles ends */
 
 .container {
-    width: 1190px;
+    width: 1190px !important;
     padding: 0;
 }
 
