@@ -41,7 +41,7 @@
     height: 35px;
     width: auto;
     font: bold 14px/35px "\5b8b\4f53";
-    padding: 0 15px;
+    padding: 0 30px;
     position: relative;
     text-decoration: none;
 }
@@ -94,7 +94,7 @@
 * 产品展示
 */
 .grid-panel {
-    margin: -1px -1px 0 0;
+    margin: 0;
     border: 1px solid #e8e8e8;
     min-height: 195px;
 }
