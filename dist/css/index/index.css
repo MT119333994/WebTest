@@ -15,7 +15,8 @@ li, ol, ul {
 
 /** ------------Floor common area starts------------ */
 .content {
-    margin-top: 20px;
+    padding-top: 10px;
+    background-color: #F3F3F3;
 }
 
 .floor-all {
@@ -26,23 +27,30 @@ li, ol, ul {
 .floor-title {
     position: relative;
     clear: both;
-    height: 34px;
+    height: 40px;
     overflow: hidden;
+    border: 1px solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .12);
+    background-color: #FFFFFF;
 }
 
 .floor-title h2 {
     position: absolute;
     left: 0;
     top: 0;
-    width: 190px;
-    height: 30px;
-    font-size: 20px;
-    font-weight: 400;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ee0853;
 }
 
 .floor-title-wrapper {
     width: 1000px;
-    height: 34px;
+    height: 40px;
     margin-left: 190px;
 }
 
@@ -61,11 +69,11 @@ li, ol, ul {
     float: left;
     display: block;
     width: 107px;
-    height: 34px;
+    height: 40px;
     color: #333;
     font-size: 15px;
     text-align: center;
-    line-height: 34px;
+    line-height: 40px;
     cursor: default;
 }
 
@@ -82,11 +90,14 @@ li, ol, ul {
 
 .floor-nav .floor-nav-list {
     float: right;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
 }
 
 .floor-nav .floor-nav-list li {
     display: inline;
-    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .floor-nav .floor-nav-list li a {
@@ -94,10 +105,11 @@ li, ol, ul {
 }
 
 .floor-nav .floor-nav-list li a:hover {
-    color: #f60;
+    color: #ee0853;
 }
 
 .floor-content {
+    margin-top: 10px;
     border-top: 2px solid #000;
 }
 
@@ -113,7 +125,8 @@ li, ol, ul {
     float: left;
     width: 190px;
     height: 250px;
-    border: solid #E5E5E5;
+    border: solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .12);
     border-width: 0 1px 1px 1px;
 }
 
@@ -172,8 +185,10 @@ li, ol, ul {
     display: inline;
     width: 200px;
     height: 250px;
-    border: solid #E5E5E5;
+    border: solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .12);
     border-width: 0 1px 1px 0;
+    background-color: #FFFFFF;
 }
 
 .fc-goods .fc-good-image {
@@ -278,7 +293,9 @@ li, ol, ul {
     height: 210px;
     margin-right: 30px;
     margin-bottom: 20px;
-    border: 1px solid #E5E5E5;
+    border: 1px solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .12);
+    background-color: #FFFFFF;
 }
 
 .hk-category-list .hk-category-selected {
@@ -320,7 +337,8 @@ li, ol, ul {
 /** ------------Floor0 area ends **/
 
 .floor-1 .floor-content {
-    border-top: 1px solid #E5E5E5;
+    border-top: 1px solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .12);
 }
 
 .floor-1 .floor-title-tab li.active a {
