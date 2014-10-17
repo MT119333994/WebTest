@@ -16,8 +16,16 @@ a {
     outline: 0;
 }
 
+a:focus {
+    outline: none;
+}
+
 li, ol, ul {
     list-style: none;
+}
+
+img {
+    border: 0;
 }
 
 .clear {
@@ -26,10 +34,6 @@ li, ol, ul {
     height: 0;
     overflow: hidden;
     font-size: 0;
-}
-
-a:focus {
-    outline: none;
 }
 
 /** Common styles */
@@ -57,18 +61,23 @@ a:focus {
 
 .container {
     width: 1190px !important;
+    margin: auto;
     padding: 0;
+}
+
+.wrapper {
+    background-color: #F3F3F3;
 }
 
 /** New header CSS */
 .header {
-    border-bottom: 1px solid #d4d4d4\9;
-    box-shadow: 0 1px 5px #d4d4d4;
+    border-bottom: 2px solid #ee0853;
     position: relative;
     top: 0;
     left: 0;
     height: 70px;
     line-height: 70px;
+    background-color: #FFF;
 }
 
 .header-main {
@@ -103,6 +112,13 @@ a:focus {
     color: #ee0853;
 }
 
+.header-banner {
+    width: 515px;
+    height: 70px;
+    float: right;
+    background: url(/WebTest/dist/images/global/header-banner.png) no-repeat center right;
+}
+
 /** New header CSS ends*/
 
 .product-category {
@@ -125,6 +141,7 @@ a:focus {
     margin-top: 40px;
     border-top: 1px solid #eee;
     font-size: 12px;
+    background: #fff;
 }
 
 .g-foot {
