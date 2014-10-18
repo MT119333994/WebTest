@@ -193,7 +193,7 @@ li, ol, ul {
     vertical-align: middle;
     text-align: center;
     color: #fff;
-    background: url(/WebTest/dist/images/index/products/btnbg_v3.png) no-repeat center right;
+    background-color: #fe6397;
 }
 
 .floor-content .fc-title-area {
