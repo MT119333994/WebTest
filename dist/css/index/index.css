@@ -186,10 +186,10 @@ li, ol, ul {
 
 .goods-price-more {
     float: right;
-    width: 80px;
-    height: 40px;
-    margin-right: 10px;
-    line-height: 40px;
+    width: 60px;
+    height: 35px;
+    margin: 5px 10px 0 0;
+    line-height: 35px;
     vertical-align: middle;
     text-align: center;
     color: #fff;
