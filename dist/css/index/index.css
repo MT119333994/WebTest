@@ -39,52 +39,27 @@ li, ol, ul {
     vertical-align: middle;
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
-    color: #ee0853;
+    color: #f42e64;
+}
+
+.ft-description {
+    width: 110px;
+    line-height: 40px;
+    margin-left: 110px;
+    vertical-align: middle;
+    font-weight: 700;
+    color: #555;
 }
 
 .floor-title-wrapper {
-    width: 1000px;
+    display: inline-block;
+    float: right;
     height: 40px;
-    margin-left: 190px;
-}
-
-.floor-title-tab {
-    float: left;
-    display: inline;
-}
-
-.floor-title-tab li {
-    float: left;
-    display: inline;
-    margin-right: 15px;
-}
-
-.floor-title-tab li a {
-    float: left;
-    display: block;
-    width: 107px;
-    height: 40px;
-    color: #333;
-    font-size: 15px;
-    text-align: center;
     line-height: 40px;
-    cursor: default;
-}
-
-.floor-title-tab li a:hover {
-    text-decoration: none;
-    color: #6D79DB;
-}
-
-.floor-title-tab li.active a {
-    background: #5DB5DB;
-    color: #FFF;
-    font-weight: 700;
+    padding-right: 10px;
 }
 
 .floor-nav .floor-nav-list {
-    float: right;
     height: 40px;
     line-height: 40px;
     vertical-align: middle;
@@ -92,7 +67,7 @@ li, ol, ul {
 
 .floor-nav .floor-nav-list li {
     display: inline;
-    margin-right: 30px;
+    margin-left: 30px;
 }
 
 .floor-nav .floor-nav-list li a {
@@ -100,7 +75,7 @@ li, ol, ul {
 }
 
 .floor-nav .floor-nav-list li a:hover {
-    color: #ee0853;
+    color: #f42e64;
 }
 
 .floor-content {
@@ -113,6 +88,32 @@ li, ol, ul {
     height: 0;
     clear: both;
     visibility: hidden;
+}
+
+.floor-content .fc-goods-all {
+    width: 1220px;
+}
+
+.floor-content .fc-goods {
+    float: left;
+    width: 250px;
+    height: 300px;
+    margin: 0 30px 20px 0;
+}
+
+.floor-content .fc-goods a:hover {
+    border: 2px solid #f42e64;
+}
+
+.fc-goods .fc-goods-link {
+    display: block;
+    width: 248px;
+    height: 298px;
+    background: #fff;
+    border: 1px solid #d3d3d3;
+    border-color: rgba(0, 0, 0, .15);
+    cursor: pointer;
+    overflow: hidden;
 }
 
 .floor-content .fc-title-area {
@@ -156,12 +157,16 @@ li, ol, ul {
     line-height: 400px;
 }
 
+.hk-category-list {
+    width: 1120px;
+}
+
 .hk-category-list li {
     position: relative;
     float: left;
     display: inline;
-    width: 273px;
-    height: 210px;
+    width: 248px;
+    height: 205px;
     margin-right: 30px;
     margin-bottom: 20px;
     border: 1px solid #d3d3d3;
@@ -170,7 +175,7 @@ li, ol, ul {
 }
 
 .hk-category-list .hk-category-selected {
-    border: 1px solid #ee0853;
+    border: 1px solid #f42e64;
 }
 
 .hk-category-list .hk-category-last {
@@ -178,10 +183,9 @@ li, ol, ul {
 }
 
 .hk-category-list .hk-category-title {
-    width: 240px;
     height: 40px;
     line-height: 40px;
-    margin: 0 auto;
+    padding: 0 10px;
 }
 
 .hk-category-title h4 {
@@ -203,7 +207,6 @@ li, ol, ul {
     width: 220px;
     height: 170px;
     line-height: 170px;
-    padding: 5px 0 15px;
     vertical-align: middle;
     margin: 0 auto;
 }

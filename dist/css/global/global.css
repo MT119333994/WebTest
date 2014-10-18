@@ -6,8 +6,7 @@ body, h1, h2, h3, h4, h5, h6, hr, p, dl, dt, dd, ul, ol, li, form, fieldset, leg
 }
 
 body, button, input, select, textarea {
-    font-family: "Microsoft Yahei", "\5FAE\8F6F\96C5\9ED1", Tahoma, Helvetica, STHeiti, "Hiragino Sans GB", sans-serif;
-    font-size: 12px;
+    font: 12px/1.5 "Microsoft Yahei", "Hiragino Sans GB", tahoma, arial;
 }
 
 a {
@@ -54,24 +53,24 @@ img {
 }
 
 .logo-color {
-    color: #ee0853;
+    color: #f42e64;
 }
 
 /** Common styles ends */
 
 .container {
-    width: 1190px !important;
+    width: 1090px !important;
     margin: auto;
     padding: 0;
 }
 
 .wrapper {
-    background-color: #F3F3F3;
+    background-color: #f7f7f7;
 }
 
 /** New header CSS */
 .header {
-    border-bottom: 2px solid #ee0853;
+    border-bottom: 2px solid #f42e64;
     position: relative;
     top: 0;
     left: 0;
@@ -81,7 +80,7 @@ img {
 }
 
 .header-main {
-    width: 1190px;
+    width: 1090px;
     margin: auto;
     position: relative;
 }
@@ -109,11 +108,11 @@ img {
 
 .header-nav li a:hover {
     text-decoration: none;
-    color: #ee0853;
+    color: #f42e64;
 }
 
 .header-banner {
-    width: 515px;
+    width: 400px;
     height: 70px;
     float: right;
     background: url(/WebTest/dist/images/global/header-banner.png) no-repeat center right;
