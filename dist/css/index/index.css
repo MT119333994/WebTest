@@ -59,6 +59,10 @@ li, ol, ul {
     padding-right: 10px;
 }
 
+.floor-title-wrapper a:hover {
+    color: #f42e64;
+}
+
 .floor-nav .floor-nav-list {
     height: 40px;
     line-height: 40px;
@@ -91,18 +95,22 @@ li, ol, ul {
 }
 
 .floor-content .fc-goods-all {
-    width: 1220px;
+    width: 1080px;
 }
 
 .floor-content .fc-goods {
     float: left;
     width: 250px;
     height: 300px;
-    margin: 0 30px 20px 0;
+    margin: 0 20px 20px 0;
 }
 
 .floor-content .fc-goods a:hover {
-    border: 2px solid #f42e64;
+    border-color: #f42e64;
+    outline: #f42e64 solid 1px;
+    -webkit-box-shadow: 0 0 5px #f42e64;
+    -moz-box-shadow: 0 0 5px #f42e64;
+    box-shadow: 0 0 5px #f42e64;
 }
 
 .fc-goods .fc-goods-link {
@@ -114,6 +122,78 @@ li, ol, ul {
     border-color: rgba(0, 0, 0, .15);
     cursor: pointer;
     overflow: hidden;
+    position: relative;
+}
+
+.fc-goods .fc-goods-img {
+    height: 200px;
+}
+
+.fc-goods h4 {
+    margin: 0 7px 5px;
+    font-size: 14px;
+    line-height: 15px;
+    font-weight: 400;
+    overflow: hidden;
+    color: #ae764b;
+}
+
+.fc-goods h3 {
+    font-size: 12px;
+    margin: 0 7px;
+    padding: 0;
+    color: #a2a2a2;
+    font-weight: 400;
+    overflow: hidden;
+}
+
+.fc-goods .nowrap {
+    white-space: nowrap;
+    word-break: keep-all;
+    text-overflow: ellipsis;
+}
+
+.fc-goods-price {
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    width: 238px;
+}
+
+.fc-goods .goods-price-rmb {
+    font-size: 30px;
+    font-weight: 400;
+    color: #f72862;
+    float: left;
+    font-family: Tahoma;
+    letter-spacing: -2px;
+}
+
+.fc-goods i {
+    font-style: normal;
+}
+
+.fc-goods .goods-price-rmb i {
+    font-size: 22px;
+}
+
+.fc-goods .goods-price-hk {
+    float: left;
+    margin-left: 5px;
+    padding-top: 20px;
+    color: #888;
+}
+
+.goods-price-more {
+    float: right;
+    width: 80px;
+    height: 40px;
+    margin-right: 10px;
+    line-height: 40px;
+    vertical-align: middle;
+    text-align: center;
+    color: #fff;
+    background: url(/WebTest/dist/images/index/products/btnbg_v3.png) no-repeat center right;
 }
 
 .floor-content .fc-title-area {
@@ -158,28 +238,28 @@ li, ol, ul {
 }
 
 .hk-category-list {
-    width: 1120px;
+    width: 1080px;
 }
 
 .hk-category-list li {
-    position: relative;
     float: left;
-    display: inline;
-    width: 248px;
+    width: 250px;
     height: 205px;
-    margin-right: 30px;
+    margin-right: 20px;
     margin-bottom: 20px;
+}
+
+.hk-category-list li a {
+    display: block;
+    overflow: hidden;
+    width: 248px;
     border: 1px solid #d3d3d3;
     border-color: rgba(0, 0, 0, .12);
     background-color: #FFFFFF;
 }
 
-.hk-category-list .hk-category-selected {
+.hk-category-list li a:hover {
     border: 1px solid #f42e64;
-}
-
-.hk-category-list .hk-category-last {
-    margin-right: 0;
 }
 
 .hk-category-list .hk-category-title {

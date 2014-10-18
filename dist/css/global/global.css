@@ -27,6 +27,10 @@ img {
     border: 0;
 }
 
+address, cite, dfn, em, var {
+    font-style: normal;
+}
+
 .clear {
     clear: both;
     display: block;
@@ -59,7 +63,7 @@ img {
 /** Common styles ends */
 
 .container {
-    width: 1090px !important;
+    width: 1060px !important;
     margin: auto;
     padding: 0;
 }
@@ -80,7 +84,7 @@ img {
 }
 
 .header-main {
-    width: 1090px;
+    width: 1060px;
     margin: auto;
     position: relative;
 }
