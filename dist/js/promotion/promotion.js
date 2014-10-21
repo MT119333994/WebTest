@@ -2,14 +2,16 @@
  * Created by MaTeng on 2014/9/10.
  */
 $(function () {
-    // 老版本使用
-    $(".nav-filter li").on("click",function(){
-        $(this).addClass("cur");
-        $(this).siblings().removeClass("cur");
+    $(window).scroll(function () {
+        var scrollTop = $(window).scrollTop();
+        if (scrollTop >= 70) {
+            $(".promotion-nav").addClass("promotion-nav-fixed");
+        } else {
+            $(".promotion-nav").removeClass("promotion-nav-fixed");
+        }
     });
-    // 新版本使用
-    $(".nav-pills li").on("click",function(){
-        $(this).addClass("cur");
-        $(this).siblings().removeClass("cur");
+
+    $(".promotion-nav .promotion-nav-item").on("click", function () {
+        $(this).parent().toggleClass("selected").siblings(".selected").removeClass("selected");
     });
 });

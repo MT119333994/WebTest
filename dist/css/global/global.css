@@ -68,6 +68,12 @@ address, cite, dfn, em, var {
     padding: 0;
 }
 
+.content {
+    width: 1060px !important;
+    margin: auto;
+    padding: 10px 0 0;
+}
+
 .wrapper {
     background-color: #f7f7f7;
 }
