@@ -193,35 +193,6 @@ li, ol, ul {
     background-color: #fe6397;
 }
 
-.floor-content .fc-title-area {
-    overflow: hidden;
-    position: relative;
-    text-align: center;
-}
-
-.fc-title-area .fc-title {
-    font-weight: 700;
-    font-size: 18px;
-    height: 32px;
-    line-height: 32px;
-    color: #999 !important;
-    position: relative;
-    padding: 0 15px;
-}
-
-.fc-title-area .fc-title:before,
-.fc-title-area .fc-title:after {
-    position: absolute;
-    width: 500px;
-    border-top: 1px dashed #aaa;
-    top: 50%;
-    display: block;
-    content: ".";
-    right: 100%;
-    height: 0;
-    font: 0/0 a;
-}
-
 /** ------------Floor common area ends ------------ */
 
 /** ------------Floor0 area starts **/
