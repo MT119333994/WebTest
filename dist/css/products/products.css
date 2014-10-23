@@ -2,7 +2,6 @@
 .promotion-nav {
     float: left;
     width: 140px;
-    height: 200px;
     border: 1px solid #d3d3d3;
     border-color: rgba(0, 0, 0, .12);
     background: #ffffff;
@@ -14,9 +13,9 @@
 }
 
 .promotion-nav h2 {
-    color: #fff;
+    color: #5e3500;
     overflow: hidden;
-    background: #49A5DE;
+    background: #FFEDE1;
     font-weight: 400;
     height: 36px;
     font-size: 16px;
@@ -39,22 +38,23 @@
 
 .promotion-nav-list .promotion-nav-item {
     display: block;
+    position: relative;
     width: 80px;
     height: 30px;
     line-height: 30px;
     vertical-align: middle;
     margin: auto;
-    color: #8f8f8f;
+    color: #644b4f;
 }
 
 .promotion-nav-list li a:hover {
-    color: #49A5DE;
+    color: #fe6397;
 }
 
 .promotion-nav-list li.selected a {
     white-space: nowrap;
-    background: #FFEDE1;
-    color: #8f8f8f;
+    background: #fe6397;
+    color: #fff;
 }
 
 /** promotion nav area ends */
@@ -82,16 +82,16 @@
     background: #fff;
     border: 1px solid #d3d3d3;
     border-color: rgba(0, 0, 0, .15);
-    position: relative;
     cursor: pointer;
+    position: relative;
 }
 
 .promotion-item > a:hover {
-    border-color: #f42e64;
-    outline: #f42e64 solid 1px;
-    -webkit-box-shadow: 0 0 5px #f42e64;
-    -moz-box-shadow: 0 0 5px #f42e64;
-    box-shadow: 0 0 5px #f42e64;
+    border-color: #fe6397;
+    outline: #fe6397 solid 1px;
+    -webkit-box-shadow: 0 0 5px #fe6397;
+    -moz-box-shadow: 0 0 5px #fe6397;
+    box-shadow: 0 0 5px #fe6397;
 }
 
 .promotion-item .promotion-item-img {
@@ -121,16 +121,60 @@
     overflow: hidden;
 }
 
-.promotion-item-link .promotion-item-deadline {
-    border-top: 1px #BCBCBC dotted;
-    margin: 10px auto 0;
-    text-align: center;
+.promotion-item-price {
+    padding: 5px 0 0 0;
 }
 
-.promotion-item-deadline h3 {
-    display: inline-block;
-    line-height: 40px;
+.promotion-item-price i {
+    font-style: normal;
+}
+
+.promotion-item-price .item-price-rmb {
+    float: left;
+    width: 130px;
+    text-align: right;
+    font-size: 30px;
+    font-weight: 400;
+    color: #f72862;
+    font-family: Tahoma;
+    letter-spacing: -2px;
+}
+
+.promotion-item-price .item-price-hk {
+    float: right;
+    width: 130px;
+    padding-top: 15px;
+    text-align: left;
+    color: #888;
+}
+
+.promotion-item-link .promotion-item-more {
+    position: absolute;
+    top: 170px;
+    width: 288px;
+    height: 30px;
+    line-height: 30px;
     vertical-align: middle;
+    text-align: center;
+    color: #FFF;
+    background-color: #000;
+    background-color: rgba(0,0,0,.6);
+    opacity: 0;
+    filter: Alpha(opacity=0);
+    /*float: right;*/
+    /*width: 60px;*/
+    /*height: 35px;*/
+    /*margin: 5px 10px 0 0;*/
+    /*line-height: 35px;*/
+    /*vertical-align: middle;*/
+    /*text-align: center;*/
+    /*color: #fff;*/
+    /*background-color: #fe6397;*/
+}
+
+.promotion-item-link.item-link-hover .promotion-item-more {
+    opacity: 1;
+    filter: Alpha(opacity=100);
 }
 
 /** promotion content area ends **/
