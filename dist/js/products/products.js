@@ -17,4 +17,9 @@ $(function () {
     }).on("mouseout", "a", function(){
         $(this).removeClass("item-link-hover");
     });
+
+    $("#product-detail .tab li").on("click",function(){
+        $(this).addClass("curr").siblings().removeClass("curr");
+        $("#"+$(this).attr("data-target")).show().siblings().hide();
+    })
 });

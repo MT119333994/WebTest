@@ -1,0 +1,250 @@
+.layA {
+    float: left;
+    width: 290px;
+    margin-right: 18px;
+}
+.borGray {
+    border: solid 1px #ddd;
+}
+.largerPic {
+    height: 210px;
+    margin: 5px 0 0 4px;
+    overflow: hidden;
+    position: relative;
+}
+a {
+    color: #333;
+    text-decoration: none;
+    outline: none;
+}
+img, fieldset {
+    border: 0;
+    vertical-align: middle;
+}
+.sPicList {
+    padding-left: 4px;
+    margin-right: -10px;
+}
+.sPicList li {
+    height: 71px;
+    margin-right: 10px;
+    margin-top: 20px;
+    zoom: 1;
+    position: relative;
+}
+.sPicList li, .sPicList li a {
+    display: inline;
+    float: left;
+}
+.sPicList li.licen {
+    margin-right: 11px;
+}
+li.current img {
+    border-color: #f60;
+}
+.sPicList li a img {
+    position: relative;
+    border: 1px solid #fff;
+}
+.sPicList li a:hover i {
+    color: #f60;
+}
+.sPicList li a:hover img, .sPicList li.current img {
+     border-color: #f60;
+ }
+.sPicList li a i {
+    display: block;
+    text-align: center;
+    line-height: 22px;
+    color: #777;
+    width: 60px;
+    height: 20px;
+    overflow: hidden;
+    font-style: normal;
+}
+.layB {
+    float: left;
+}
+.pro-param .hd {
+    height: 34px;
+    overflow: hidden;
+}
+.pro-param .hd h3 {
+    width: 370px;
+    height: 40px;
+    line-height: 40px;
+    overflow: hidden;
+    float: left;
+    font: 700 20px/38px \5FAE\8F6F\96C5\9ED1;
+}
+dl, dt, dd, ul, li {
+    margin: 0;
+    padding: 0;
+}
+ol, ul {
+    list-style: none;
+    list-style-position: outside;
+}
+.fl {
+    float: left;
+}
+.ulparam li {
+    height: 34px;
+    line-height: 32px;
+    overflow: hidden;
+    zoom: 1;
+    vertical-align: middle;
+}
+.ulparam .iTit {
+    color: #777;
+    display: inline-block;
+}
+.pro-param .ulparam em.allPrice {
+    font-size: 12px;
+    font-weight: normal;
+    color: #333;
+    font-family: "宋体";
+}
+.pro-param .ulparam em.allPrice {
+    font-size: 12px;
+    font-weight: normal;
+    color: #333;
+    font-family: "宋体";
+}
+.pro-param .ulparam .redPrice, .pro-param .listCompare .redPrice, .pro-param .ulparam .bPrice, .pro-param .ulparam .mPrice {
+    font-size: 14px;
+}
+.redPrice {
+    color: #e00020;
+    font-family: "微软雅黑";
+}
+em, i {
+    font-style: normal;
+}
+.ulparam .sign {
+    font-weight: 700;
+}
+.pro-param .ulparam .curPrice {
+    font-size: 20px;
+}
+.ulparam .curPrice {
+    font-size: 20px;
+    font-weight: 700;
+}
+.sign {
+    font-family: "微软雅黑";
+}
+/**
+* 详细
+*/
+#product-detail {
+    overflow: visible;
+    margin-top: 10px;
+    padding-top: 2px;
+    background: url(../../../dist/images/products/tab.png) 0 -41px repeat-x;
+    _clear: both;
+    overflow: visible;
+}
+.m, .sm {
+    margin-bottom: 10px;
+    zoom: 1;
+}
+.left .m .mt, .right .m .mt {
+    font: 14px/30px 'microsoft yahei';
+}
+#product-detail .mt {
+    overflow: visible;
+    top: auto;
+    z-index: 100;
+}
+#product-detail .tab {
+    float: left;
+}
+.right .mt .tab {
+    margin-left: -1px;
+    overflow: visible;
+}
+.mt {
+    overflow: visible;
+    height: 30px;
+    line-height: 30px;
+    background: 0;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+.tab a {
+    float: left;
+    height: 30px;
+    line-height: 28px;
+    padding: 0 13px;
+}
+.tab li, .tab a, .tab-item {
+    float: left;
+    text-align: center;
+}
+.tab a:hover{
+    color: #e4393c;
+    text-decoration: none;
+}
+.tab .curr {
+    color: #e4393c;
+    background-color: #fff;
+    margin-top: -6px;
+    border-top: 2px solid #e4393c;
+}
+.tab .curr a {
+    height: 34px;
+    line-height: 34px;
+    padding: 0 12px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #e4393c;
+}
+
+/* 配置信息 */
+.Ptable {
+    background: #ccc;
+    margin: 0;
+}
+table {
+    empty-cells: show;
+}
+table {
+    width: 100%;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-bottom-width: 0px;
+    border-left-width: 0px;
+    display: table;
+    border-collapse: separate;
+    border-spacing: 1px;
+    border-color: gray;
+}
+.Ptable th {
+    background: #EEF7FE;
+    text-align: right;
+    padding: 5px;
+    font-size: 12px;
+}
+.Ptable th.tdTitle {
+    text-align: center;
+}
+.Ptable td {
+    padding: 2px 5px;
+    font-size: 12px;
+}
+.Ptable td {
+    padding: 2px 5px;
+    background: #fff;
+}
+.Ptable .tdTitle {
+    text-align: right;
+    width: 110px;
+    background: #F5FAFE;
+}
+#promises {
+    padding: 10px;
+    overflow: hidden;
+    zoom: 1;
+    border-top: 1px dotted #DEDEDE;
+}
